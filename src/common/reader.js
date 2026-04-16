@@ -115,7 +115,7 @@ class Reader {
 			},
 			underline: {
 				type: 'underline',
-				color: ANNOTATION_COLORS[0][1],
+				color: ANNOTATION_COLORS[1][1],
 			},
 			note: {
 				type: 'note',
@@ -123,17 +123,17 @@ class Reader {
 			},
 			image: {
 				type: 'image',
-				color: ANNOTATION_COLORS[0][1],
+				color: ANNOTATION_COLORS[2][1],
 			},
 			text: {
 				type: 'text',
-				color: ANNOTATION_COLORS[0][1],
-				size: 14
+				color: ANNOTATION_COLORS[1][1],
+				size: 8
 			},
 			ink: {
 				type: 'ink',
-				color: ANNOTATION_COLORS[3][1],
-				size: 2
+				color: ANNOTATION_COLORS[1][1],
+				size: 1
 			},
 			eraser: {
 				type: 'eraser',
