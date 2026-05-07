@@ -113,7 +113,7 @@ class PDFView {
 
 		this._onTabOut = options.onTabOut;
 
-		this._viewState = options.viewState || { pageIndex: 0, scale: "page-width", scrollMode: 0, spreadMode: 0 };
+		this._viewState = { pageIndex: 0, scale: "page-fit", scrollMode: 0, spreadMode: 1, ...(options.viewState || {}) };
 		this._location = options.location;
 
 		this._tool = options.tool;
